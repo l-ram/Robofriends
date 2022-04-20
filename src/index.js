@@ -5,4 +5,4 @@ import App from './App';
 import 'tachyons';
 
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
